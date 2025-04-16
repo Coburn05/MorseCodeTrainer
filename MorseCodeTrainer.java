@@ -34,7 +34,7 @@ class MorseConstants {
     public static final String[] TARGET_WORDS = {
             "SOS", "CODE", "JAVA", "TEST", "LEARN", "MORSE", "TRAINER", "PROGRAM", "CAT", "HAT", "THE", "QUICK",
             "BROWN", "FOX", "JUMPED", "OVER", "THE", "LAZY", "DOG", "1", "2", "3", "4", "5", "6", "7", "8", "9",
-            "0", "× (error)", "+ (wait)"
+            "0", "X (error)", "+ (wait)"
     };
 
     // Morse mappings
@@ -100,7 +100,6 @@ class MorseConstants {
         // Special Prosigns
         CHAR_TO_MORSE.put('§', "...---..."); // SOS prosign
         CHAR_TO_MORSE.put('+', ".-.-.");     // Wait symbol
-        CHAR_TO_MORSE.put('×', "-..-");      // Error symbol
     }
 }
 
